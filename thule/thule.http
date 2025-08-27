@@ -1,0 +1,6 @@
+@thule_HostAddress = http://localhost:5273
+
+GET {{thule_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

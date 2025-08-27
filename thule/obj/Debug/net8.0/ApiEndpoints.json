@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "thule.Controllers.WeatherController",
+    "Method": "ExportCsv",
+    "RelativePath": "Weather/exportCsv",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "latitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "longitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "thule.Controllers.WeatherController",
     "Method": "GetFromFile",
     "RelativePath": "Weather/partOne",
     "HttpMethod": "GET",

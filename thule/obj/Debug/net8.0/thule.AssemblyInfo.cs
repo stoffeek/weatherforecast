@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("thule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb6bacabad4f81a6d2d1cc5251f3a2161e7bc2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("thule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("thule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

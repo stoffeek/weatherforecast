@@ -8,6 +8,8 @@
         public DateTime date { get; set; }
         public float averageTemperature { get; set; }
         public float totalRainMm { get; set; }
+        public string source { get; set; }
+
     }
 
 }

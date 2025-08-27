@@ -98,6 +98,36 @@
           }
         }
       }
+    },
+    "/Weather/exportCsv": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "parameters": [
+          {
+            "name": "latitude",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          },
+          {
+            "name": "longitude",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -116,6 +146,10 @@
           "totalRainMm": {
             "type": "number",
             "format": "float"
+          },
+          "source": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
